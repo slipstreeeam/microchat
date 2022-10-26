@@ -36,6 +36,7 @@ input.onGesture(Gesture.Shake, function () {
 let Letters: string[] = []
 let Letter_Index = 0
 let Message = ""
+basic.showString("MicroChat")
 radio.setGroup(125)
 Message = ""
 Letter_Index = 0
